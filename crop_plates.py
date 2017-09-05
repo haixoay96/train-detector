@@ -4,7 +4,7 @@ import os
 import sys
 import json
 import math
-import cv, cv2
+import cv2
 import numpy as np
 import copy
 import yaml
@@ -56,9 +56,9 @@ def get_box(x1, y1, x2, y2, x3, y3, x4, y4):
 
 
     points = [(x1,y1), (x2,y2), (x3,y3), (x4,y4)]
-    moment = cv.Moments(points)
-    centerx = int(round(moment.m10/moment.m00))
-    centery = int(round(moment.m01/moment.m00))
+    moment = cv2.moments(np.array(points))
+    centerx = int(round(moment['m10']/moment['m00']))
+    centery = int(round(moment['m01']/moment['m00']))
 
 
     training_aspect = options.plate_width / options.plate_height
@@ -160,7 +160,9 @@ for yaml_file in yaml_files:
     # cv2.imshow("test", crop)
     # cv2.waitKey(0)
 
-    out_crop_path = os.path.join(options.out_dir, yaml_without_ext + ".jpg")
+    out_crop_path = os.path.join(options.out_dir, os.path.basename(yaml_without_ext) + ".jpg")
+    print out_crop_path
+
     cv2.imwrite(out_crop_path, crop )
 
 print "%d Cropped images are located in %s" % (count-1, options.out_dir)
