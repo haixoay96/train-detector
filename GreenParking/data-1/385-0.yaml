@@ -1,0 +1,7 @@
+image_file: 385.jpg
+image_width: 392
+image_height: 262
+plate_corners_gt: 229 111 315 104 316 159 228 164
+region_code_gt: vnmoto
+plate_number_gt: 53v93055
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: 195.jpg
+image_width: 392
+image_height: 262
+plate_corners_gt: 191 183 273 193 262 248 179 235
+region_code_gt: vnmoto
+plate_number_gt: 61x29525
+plate_inverted_gt: false

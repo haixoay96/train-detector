@@ -1,0 +1,7 @@
+image_file: 162.jpg
+image_width: 392
+image_height: 262
+plate_corners_gt: 179 93 269 100 251 164 156 153
+region_code_gt: vnmoto
+plate_number_gt: 61v13234
+plate_inverted_gt: false

@@ -1,0 +1,7 @@
+image_file: 348.jpg
+image_width: 392
+image_height: 262
+plate_corners_gt: 192 143 252 141 264 178 200 180
+region_code_gt: vnmoto
+plate_number_gt: 39t14740
+plate_inverted_gt: false

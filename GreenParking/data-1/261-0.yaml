@@ -1,0 +1,7 @@
+image_file: 261.jpg
+image_width: 392
+image_height: 262
+plate_corners_gt: 126 35 206 36 193 90 112 87
+region_code_gt: vnmoto
+plate_number_gt: 51n17518
+plate_inverted_gt: false

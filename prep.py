@@ -8,8 +8,8 @@ import shutil
 import sys
 
 
-WIDTH=14
-HEIGHT=19
+WIDTH=19
+HEIGHT=14
 COUNTRY='vnmoto'
 
 #WIDTH=52
@@ -21,10 +21,10 @@ COUNTRY='vnmoto'
 #COUNTRY='br'
 
 #constants
-OPENCV_DIR= '/usr/bin'
+OPENCV_DIR= '/usr/local/bin'
 SAMPLE_CREATOR = OPENCV_DIR + '/opencv_createsamples'
 
-BASE_DIR            = '/home/duclinh/train-detector/'
+BASE_DIR            = '/home/train-detector/'
 
 OUTPUT_DIR          = BASE_DIR + "out"
 INPUT_NEGATIVE_DIR  = BASE_DIR + 'raw-neg/'

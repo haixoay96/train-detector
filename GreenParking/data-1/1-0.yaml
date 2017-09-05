@@ -1,0 +1,7 @@
+image_file: 1.jpg
+image_width: 392
+image_height: 262
+plate_corners_gt: 59 66 143 69 123 131 38 124
+region_code_gt: vnmoto
+plate_number_gt: 55p2
+plate_inverted_gt: false
